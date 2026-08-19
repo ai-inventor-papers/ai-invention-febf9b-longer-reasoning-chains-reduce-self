@@ -1,0 +1,205 @@
+{
+  "metadata": {
+    "evaluation_name": "self_check_divergence_analysis",
+    "description": "Statistical analysis of self-check divergence across CoT lengths",
+    "hypothesis": "Shorter chain-of-thought reduces contradiction in model self-checks",
+    "experiment_model": "mistralai/ministral-3b-2512",
+    "temperature": 0.7,
+    "bootstrap_iterations": 1000,
+    "ci_level": 0.95,
+    "difficulty_validation": {
+      "easy_accuracy": 0.7083,
+      "easy_count": 384,
+      "medium_accuracy": 0.7357,
+      "medium_count": 333,
+      "hard_accuracy": 0.713,
+      "hard_count": 439,
+      "monotonic": false
+    },
+    "confidence_intervals": {
+      "short": {
+        "mean": 0.6813,
+        "ci_lower": 0.6347,
+        "ci_upper": 0.7255,
+        "n": 386
+      },
+      "medium": {
+        "mean": 0.7558,
+        "ci_lower": 0.7143,
+        "ci_upper": 0.7948,
+        "n": 385
+      },
+      "long": {
+        "mean": 0.5481,
+        "ci_lower": 0.4987,
+        "ci_upper": 0.5974,
+        "n": 385
+      }
+    },
+    "mcnemar_test": {
+      "chi2": 13.0381,
+      "p_value": 0.000305,
+      "discordant_pairs": {
+        "b": 71,
+        "c": 34
+      },
+      "concordant_pairs": {
+        "a": 118,
+        "d": 53
+      }
+    },
+    "paired_sign_test": {
+      "z": -3.6108,
+      "p_value": 0.000391,
+      "positive_differences": 34,
+      "negative_differences": 71,
+      "tied": 171,
+      "n_effective": 105
+    },
+    "spearman_trend_test": {
+      "spearman_r": -0.1161,
+      "p_value": 0.000817
+    },
+    "divergence_analysis": {
+      "short": {
+        "accuracy": 0.8316,
+        "agreement": 0.6813,
+        "divergence": -0.1503
+      },
+      "medium": {
+        "accuracy": 0.8234,
+        "agreement": 0.7558,
+        "divergence": -0.0675
+      },
+      "long": {
+        "accuracy": 0.4987,
+        "agreement": 0.5481,
+        "divergence": 0.0494
+      }
+    },
+    "effect_sizes": {
+      "cohens_h_short_vs_long": 0.2749,
+      "odds_ratio_mcnemar": 2.0882,
+      "interpretation": "medium"
+    },
+    "difficulty_stratified": {
+      "easy": {
+        "short": {
+          "agreement_rate": 0.6953,
+          "accuracy": 0.8359,
+          "n": 128
+        },
+        "medium": {
+          "agreement_rate": 0.7109,
+          "accuracy": 0.8125,
+          "n": 128
+        },
+        "long": {
+          "agreement_rate": 0.4922,
+          "accuracy": 0.4766,
+          "n": 128
+        }
+      },
+      "medium": {
+        "short": {
+          "agreement_rate": 0.6667,
+          "accuracy": 0.8288,
+          "n": 111
+        },
+        "medium": {
+          "agreement_rate": 0.8018,
+          "accuracy": 0.8198,
+          "n": 111
+        },
+        "long": {
+          "agreement_rate": 0.6667,
+          "accuracy": 0.5586,
+          "n": 111
+        }
+      },
+      "hard": {
+        "short": {
+          "agreement_rate": 0.6803,
+          "accuracy": 0.8299,
+          "n": 147
+        },
+        "medium": {
+          "agreement_rate": 0.7603,
+          "accuracy": 0.8356,
+          "n": 146
+        },
+        "long": {
+          "agreement_rate": 0.5068,
+          "accuracy": 0.4726,
+          "n": 146
+        }
+      }
+    }
+  },
+  "metrics_agg": {
+    "total_results": 1156,
+    "short_agreement_rate": 0.6813471502590673,
+    "medium_agreement_rate": 0.7558441558441559,
+    "long_agreement_rate": 0.548051948051948,
+    "short_accuracy": 0.8316,
+    "medium_accuracy": 0.8234,
+    "long_accuracy": 0.4987,
+    "mcnemar_p_value": 0.000305,
+    "sign_test_p_value": 0.000391,
+    "spearman_r": -0.1161,
+    "spearman_p_value": 0.000817,
+    "cohens_h": 0.2749,
+    "divergence_short": -0.1503,
+    "divergence_medium": -0.0675,
+    "divergence_long": 0.0494
+  },
+  "datasets": [
+    {
+      "dataset": "openai/gsm8k",
+      "examples": [
+        {
+          "input": "Problem: Janet’s ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at the farmers' market daily for $2 per fre...\nCoT Style: short",
+          "output": "Agreement: True, COT Correct: True, Self-Check Correct: True",
+          "metadata_problem_index": "0",
+          "metadata_cot_style": "short",
+          "metadata_agreement": "True",
+          "metadata_cot_correct": "True",
+          "metadata_selfcheck_correct": "True",
+          "predict_agreement": "1",
+          "predict_cot_correct": "1",
+          "predict_selfcheck_correct": "1",
+          "eval_agreement_rate": 0.681347,
+          "eval_divergence": -0.1503
+        },
+        {
+          "input": "Problem: A robe takes 2 bolts of blue fiber and half that much white fiber.  How many bolts in total does it take?...\nCoT Style: medium",
+          "output": "Agreement: True, COT Correct: True, Self-Check Correct: True",
+          "metadata_problem_index": "0",
+          "metadata_cot_style": "medium",
+          "metadata_agreement": "True",
+          "metadata_cot_correct": "True",
+          "metadata_selfcheck_correct": "True",
+          "predict_agreement": "1",
+          "predict_cot_correct": "1",
+          "predict_selfcheck_correct": "1",
+          "eval_agreement_rate": 0.755844,
+          "eval_divergence": -0.0675
+        },
+        {
+          "input": "Problem: Josh decides to try flipping a house.  He buys a house for $80,000 and then puts in $50,000 in repairs.  This increased the value of the house by 150%.  How much profit did he make?...\nCoT Style: long",
+          "output": "Agreement: True, COT Correct: True, Self-Check Correct: True",
+          "metadata_problem_index": "0",
+          "metadata_cot_style": "long",
+          "metadata_agreement": "True",
+          "metadata_cot_correct": "True",
+          "metadata_selfcheck_correct": "True",
+          "predict_agreement": "1",
+          "predict_cot_correct": "1",
+          "predict_selfcheck_correct": "1",
+          "eval_agreement_rate": 0.548052,
+          "eval_divergence": 0.0494
+        }
+      ]
+    }
+  ]
+}
