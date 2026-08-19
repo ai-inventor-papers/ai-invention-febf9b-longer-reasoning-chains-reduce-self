@@ -1,0 +1,22 @@
+{
+  "type": "bar",
+  "title": "Agreement by Difficulty and CoT Length",
+  "xlabel": "Difficulty Tier",
+  "ylabel": "Agreement Rate (%)",
+  "aspect": "16:9",
+  "categories": ["Easy", "Medium", "Hard"],
+  "series": [
+    {
+      "label": "Short",
+      "values": [69.5, 66.7, 68.0]
+    },
+    {
+      "label": "Medium",
+      "values": [71.1, 80.2, 76.0]
+    },
+    {
+      "label": "Long",
+      "values": [49.2, 66.7, 50.7]
+    }
+  ]
+}

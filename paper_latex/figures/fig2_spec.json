@@ -1,0 +1,19 @@
+{
+  "type": "bar",
+  "title": "Agreement and Accuracy by CoT Length",
+  "xlabel": "Chain-of-Thought Length",
+  "ylabel": "Rate (%)",
+  "aspect": "4:3",
+  "categories": ["Short", "Medium", "Long"],
+  "series": [
+    {
+      "label": "Agreement",
+      "values": [68.1, 75.6, 54.8],
+      "errors": [4.55, 4.05, 4.9]
+    },
+    {
+      "label": "Accuracy",
+      "values": [83.2, 82.3, 49.9]
+    }
+  ]
+}

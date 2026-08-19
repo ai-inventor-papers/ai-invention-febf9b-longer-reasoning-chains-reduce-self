@@ -1,0 +1,17 @@
+{
+  "type": "diverging",
+  "title": "Consistency-Accuracy Gap",
+  "xlabel": "Gap G(L) (percentage points)",
+  "ylabel": "Chain-of-Thought Length",
+  "aspect": "4:3",
+  "sort": "asc",
+  "annotate": true,
+  "fmt": ".1f",
+  "categories": ["Short", "Medium", "Long"],
+  "series": [
+    {
+      "label": "Gap",
+      "values": [-15.0, -6.8, 4.9]
+    }
+  ]
+}

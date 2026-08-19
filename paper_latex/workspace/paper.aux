@@ -1,0 +1,94 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{Wei2022}
+\citation{Dhuliawala2023}
+\citation{Madaan2023}
+\citation{Wang2022}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\citation{Zhou2026}
+\citation{Wu2025}
+\citation{Wang2022}
+\citation{Cobbe2021}
+\citation{Wei2022}
+\citation{Kojima2022}
+\citation{Yao2023}
+\citation{Wu2025}
+\citation{Ghosal2025}
+\citation{Zhou2026}
+\citation{Dhuliawala2023}
+\citation{Madaan2023}
+\citation{Wang2022}
+\citation{Wan2024}
+\citation{Taubenfeld2025}
+\citation{Zhou2025}
+\citation{Kamoi2024}
+\citation{Havrilla2024}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Overview of self-check divergence: as CoT length increases beyond an optimal point, the agreement between a model original CoT answer and its independent self-check answer decreases. Medium CoT maximizes both accuracy and agreement, while short CoT produces accurate but fragile reasoning and long CoT produces systematic errors.}}{3}{figure.1}\protected@file@percent }
+\newlabel{fig:fig1}{{1}{3}{Overview of self-check divergence: as CoT length increases beyond an optimal point, the agreement between a model original CoT answer and its independent self-check answer decreases. Medium CoT maximizes both accuracy and agreement, while short CoT produces accurate but fragile reasoning and long CoT produces systematic errors}{figure.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{3}{section.2}\protected@file@percent }
+\citation{Nayab2024}
+\citation{Cobbe2021}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Methodology}{4}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Self-Check Divergence Metric}{4}{subsection.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Noise Accumulation Model}{4}{subsection.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Experimental Design}{4}{subsection.3.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Experimental pipeline: for each GSM8K problem, the model generates a CoT answer at a controlled length, then independently re-evaluates the problem without access to the original trace. The two answers are compared to measure self-check agreement.}}{5}{figure.2}\protected@file@percent }
+\newlabel{fig:fig4}{{2}{5}{Experimental pipeline: for each GSM8K problem, the model generates a CoT answer at a controlled length, then independently re-evaluates the problem without access to the original trace. The two answers are compared to measure self-check agreement}{figure.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.1}Dataset}{5}{subsubsection.3.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.2}Model and Inference}{5}{subsubsection.3.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.3}Statistical Analysis}{5}{subsubsection.3.3.3}\protected@file@percent }
+\citation{Wu2025}
+\citation{Wu2025}
+\citation{Zhou2026}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Results}{6}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Main Results: Self-Check Agreement Across CoT Lengths}{6}{subsection.4.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Self-check agreement rate and CoT accuracy across short, medium, and long CoT lengths. Agreement peaks at medium CoT (75.6\%) while accuracy is highest at short CoT (83.2\%). Long CoT collapses on both dimensions. Error bars show 95\% confidence intervals from bootstrap resampling.}}{6}{figure.3}\protected@file@percent }
+\newlabel{fig:fig2}{{3}{6}{Self-check agreement rate and CoT accuracy across short, medium, and long CoT lengths. Agreement peaks at medium CoT (75.6\%) while accuracy is highest at short CoT (83.2\%). Long CoT collapses on both dimensions. Error bars show 95\% confidence intervals from bootstrap resampling}{figure.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Consistency-Accuracy Gap}{7}{subsection.4.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Consistency-accuracy gap G(L) = Acc(L) - SCA(L) across CoT lengths. Short CoT shows a negative gap (-15.0\%), indicating accurate but inconsistent reasoning. Medium CoT narrows the gap (-6.8\%). Long CoT reverses the gap (+4.9\%), indicating systematic errors that are reproducible but incorrect.}}{7}{figure.4}\protected@file@percent }
+\newlabel{fig:fig3}{{4}{7}{Consistency-accuracy gap G(L) = Acc(L) - SCA(L) across CoT lengths. Short CoT shows a negative gap (-15.0\%), indicating accurate but inconsistent reasoning. Medium CoT narrows the gap (-6.8\%). Long CoT reverses the gap (+4.9\%), indicating systematic errors that are reproducible but incorrect}{figure.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Difficulty-Stratified Analysis}{8}{subsection.4.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Self-check agreement rate stratified by difficulty tier (easy, medium, hard) and CoT length (short, medium, long). Long CoT produces the lowest agreement across all tiers, with the largest drop for hard problems (76.0\% to 50.7\%).}}{8}{figure.5}\protected@file@percent }
+\newlabel{fig:fig5}{{5}{8}{Self-check agreement rate stratified by difficulty tier (easy, medium, hard) and CoT length (short, medium, long). Long CoT produces the lowest agreement across all tiers, with the largest drop for hard problems (76.0\% to 50.7\%)}{figure.5}{}}
+\citation{Dhuliawala2023}
+\citation{Wu2025}
+\citation{Kamoi2024}
+\citation{Zhou2026}
+\citation{Wang2022,Wan2024,Taubenfeld2025,Zhou2025}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Discussion}{9}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Implications for Self-Verification Pipelines}{9}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Relationship to Prior Work}{9}{subsection.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Limitations}{9}{subsection.5.3}\protected@file@percent }
+\bibdata{references}
+\bibcite{Wu2025}{{1}{2025}{{Wu et~al.}}{{Wu, Wang, Du, Jegelka, and Wang}}}
+\bibcite{Wei2022}{{2}{2022}{{Wei et~al.}}{{Wei, Wang, Schuurmans, Bosma, Chi, Xia, Le, and Zhou}}}
+\bibcite{Yao2023}{{3}{2023}{{Yao et~al.}}{{Yao, Yu, Zhao, Shafran, Griffiths, Cao, and Narasimhan}}}
+\bibcite{Wan2024}{{4}{2024}{{Wan et~al.}}{{Wan, Wu, Chen, and Li}}}
+\bibcite{Zhou2025}{{5}{2025}{{Zhou et~al.}}{{Zhou, Yuhao, Li, Yao, Guo, Li, and Ma}}}
+\bibcite{Wang2022}{{6}{2022}{{Wang et~al.}}{{Wang, Wei, Schuurmans, Le, Chi, and Zhou}}}
+\bibcite{Zhou2026}{{7}{2026}{{Zhou et~al.}}{{Zhou, Ling, Chen, Wang, Fan, and Wang}}}
+\bibcite{Kamoi2024}{{8}{2024}{{Kamoi et~al.}}{{Kamoi, Zhang, Zhang, Han, and Zhang}}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion}{10}{section.6}\protected@file@percent }
+\bibcite{Cobbe2021}{{9}{2021}{{Cobbe et~al.}}{{Cobbe, Kosaraju, Bavarian, Chen, Jun, Kaiser, Plappert, Tworek, Hilton, Nakano, Hesse, and Schulman}}}
+\bibcite{Nayab2024}{{10}{2024}{{Nayab et~al.}}{{Nayab, Rossolini, Buttazzo, Manes, and Giacomelli}}}
+\bibcite{Madaan2023}{{11}{2023}{{Madaan et~al.}}{{Madaan, Tandon, Gupta, Hallinan, Gao, Wiegreffe, Alon, Dziri, Prabhumoye, Yang, Welleck, Majumder, Gupta, Yazdanbakhsh, and Clark}}}
+\bibcite{Ghosal2025}{{12}{2025}{{Ghosal et~al.}}{{Ghosal, Chakraborty, Reddy, Lu, Wang, Manocha, Huang, Ghavamzadeh, and Bedi}}}
+\bibcite{Kojima2022}{{13}{2022}{{Kojima et~al.}}{{Kojima, Gu, Reid, Matsuo, and Iwasawa}}}
+\bibcite{Havrilla2024}{{14}{2024}{{Havrilla and Iyer}}{{}}}
+\bibcite{Dhuliawala2023}{{15}{2023}{{Dhuliawala et~al.}}{{Dhuliawala, Komeili, Xu, Raileanu, Li, Celikyilmaz, and Weston}}}
+\bibcite{Taubenfeld2025}{{16}{2025}{{Taubenfeld et~al.}}{{Taubenfeld, Sheffer, Ofek, Feder, Goldstein, Gekhman, and Yona}}}
+\bibstyle{plainnat}
+\gdef \@abspage@last{11}

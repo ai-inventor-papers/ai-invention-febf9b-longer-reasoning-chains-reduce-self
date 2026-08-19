@@ -1,0 +1,138 @@
+\begin{thebibliography}{16}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Wu et~al.(2025)Wu, Wang, Du, Jegelka, and Wang]{Wu2025}
+Yuyang Wu, Yifei Wang, Tianqi Du, Stefanie Jegelka, and Yisen Wang.
+\newblock When more is less: Understanding chain-of-thought length in llms.
+\newblock \emph{ArXiv}, abs/2502.07266, 2025.
+\newblock \doi{10.48550/arXiv.2502.07266}.
+
+\bibitem[Wei et~al.(2022)Wei, Wang, Schuurmans, Bosma, Chi, Xia, Le, and
+  Zhou]{Wei2022}
+Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Ed~H. Chi, F.~Xia, Quoc
+  Le, and Denny Zhou.
+\newblock Chain of thought prompting elicits reasoning in large language
+  models.
+\newblock In \emph{Neural Information Processing Systems}, 2022.
+\newblock \doi{10.48550/arXiv.2201.11903}.
+
+\bibitem[Yao et~al.(2023)Yao, Yu, Zhao, Shafran, Griffiths, Cao, and
+  Narasimhan]{Yao2023}
+Shunyu Yao, Dian Yu, Jeffrey Zhao, Izhak Shafran, T.~Griffiths, Yuan Cao, and
+  Karthik Narasimhan.
+\newblock Tree of thoughts: Deliberate problem solving with large language
+  models.
+\newblock In \emph{Neural Information Processing Systems}, 2023.
+\newblock \doi{10.48550/arXiv.2305.10601}.
+
+\bibitem[Wan et~al.(2024)Wan, Wu, Chen, and Li]{Wan2024}
+Guangya Wan, Yuqi Wu, Jie Chen, and Sheng Li.
+\newblock Reasoning aware self-consistency: Leveraging reasoning paths for
+  efficient llm sampling.
+\newblock In \emph{North American Chapter of the Association for Computational
+  Linguistics}, pages 3613--3635, 2024.
+\newblock \doi{10.18653/v1/2025.naacl-long.184}.
+
+\bibitem[Zhou et~al.(2025)Zhou, Yuhao, Li, Yao, Guo, Li, and Ma]{Zhou2025}
+Zhi Zhou, Tan Yuhao, Zenan Li, Yuan Yao, Lan-Zhe Guo, Yufeng Li, and Xiaoxing
+  Ma.
+\newblock A theoretical study on bridging internal probability and
+  self-consistency for llm reasoning.
+\newblock In \emph{Neural Information Processing Systems}, 2025.
+\newblock \doi{10.48550/arXiv.2510.15444}.
+
+\bibitem[Wang et~al.(2022)Wang, Wei, Schuurmans, Le, Chi, and Zhou]{Wang2022}
+Xuezhi Wang, Jason Wei, Dale Schuurmans, Quoc Le, Ed~H. Chi, and Denny Zhou.
+\newblock Self-consistency improves chain of thought reasoning in language
+  models.
+\newblock In \emph{International Conference on Learning Representations}, 2022.
+\newblock \doi{10.48550/arXiv.2203.11171}.
+
+\bibitem[Zhou et~al.(2026)Zhou, Ling, Chen, Wang, Fan, and Wang]{Zhou2026}
+Shuran Zhou, Rui Ling, Junan Chen, Xin Wang, Tao Fan, and Hao Wang.
+\newblock When more thinking hurts: Overthinking in llm test-time compute
+  scaling.
+\newblock In \emph{Annual Meeting of the Association for Computational
+  Linguistics}, 2026.
+\newblock \doi{10.48550/arXiv.2604.10739}.
+
+\bibitem[Kamoi et~al.(2024)Kamoi, Zhang, Zhang, Han, and Zhang]{Kamoi2024}
+Ryo Kamoi, Yusen Zhang, Nan Zhang, Jiawei Han, and Rui Zhang.
+\newblock When can llms actually correct their own mistakes? a critical survey
+  of self-correction of llms.
+\newblock In \emph{Transactions of the Association for Computational
+  Linguistics}, volume~12, pages 1417--1440, 2024.
+\newblock \doi{10.1162/tacl_a_00713}.
+
+\bibitem[Cobbe et~al.(2021)Cobbe, Kosaraju, Bavarian, Chen, Jun, Kaiser,
+  Plappert, Tworek, Hilton, Nakano, Hesse, and Schulman]{Cobbe2021}
+Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz
+  Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano,
+  Christopher Hesse, and John Schulman.
+\newblock Training verifiers to solve math word problems.
+\newblock \emph{ArXiv}, abs/2108.03310, 2021.
+
+\bibitem[Nayab et~al.(2024)Nayab, Rossolini, Buttazzo, Manes, and
+  Giacomelli]{Nayab2024}
+Sania Nayab, Giulio Rossolini, Giorgio~C. Buttazzo, Nicolamaria Manes, and
+  F.~Giacomelli.
+\newblock Concise thoughts: Impact of output length on llm reasoning and cost.
+\newblock In \emph{Information Sciences}, 2024.
+\newblock \doi{10.48550/arXiv.2407.19825}.
+
+\bibitem[Madaan et~al.(2023)Madaan, Tandon, Gupta, Hallinan, Gao, Wiegreffe,
+  Alon, Dziri, Prabhumoye, Yang, Welleck, Majumder, Gupta, Yazdanbakhsh, and
+  Clark]{Madaan2023}
+Aman Madaan, Niket Tandon, Prakhar Gupta, Skyler Hallinan, Luyu Gao, Sarah
+  Wiegreffe, Uri Alon, Nouha Dziri, Shrimai Prabhumoye, Yiming Yang,
+  S.~Welleck, Bodhisattwa~Prasad Majumder, Shashank Gupta, A.~Yazdanbakhsh, and
+  Peter Clark.
+\newblock Self-refine: Iterative refinement with self-feedback.
+\newblock In \emph{Neural Information Processing Systems}, 2023.
+\newblock \doi{10.48550/arXiv.2303.17651}.
+
+\bibitem[Ghosal et~al.(2025)Ghosal, Chakraborty, Reddy, Lu, Wang, Manocha,
+  Huang, Ghavamzadeh, and Bedi]{Ghosal2025}
+Soumya~Suvra Ghosal, Souradip Chakraborty, A.~Reddy, Yifu Lu, Mengdi Wang,
+  Dinesh Manocha, Furong Huang, Mohammad Ghavamzadeh, and A.~S. Bedi.
+\newblock Does thinking more always help? mirage of test-time scaling in
+  reasoning models.
+\newblock In \emph{Neural Information Processing Systems}, 2025.
+\newblock \doi{10.48550/arXiv.2502.07266}.
+
+\bibitem[Kojima et~al.(2022)Kojima, Gu, Reid, Matsuo, and Iwasawa]{Kojima2022}
+Takeshi Kojima, S.~Gu, Machel Reid, Yutaka Matsuo, and Yusuke Iwasawa.
+\newblock Large language models are zero-shot reasoners.
+\newblock In \emph{Neural Information Processing Systems}, 2022.
+\newblock \doi{10.48550/arXiv.2205.11916}.
+
+\bibitem[Havrilla and Iyer(2024)]{Havrilla2024}
+Alex Havrilla and Maia Iyer.
+\newblock Understanding the effect of noise in llm training data with
+  algorithmic chains of thought.
+\newblock \emph{ArXiv}, abs/2402.04004, 2024.
+\newblock \doi{10.48550/arXiv.2402.04004}.
+
+\bibitem[Dhuliawala et~al.(2023)Dhuliawala, Komeili, Xu, Raileanu, Li,
+  Celikyilmaz, and Weston]{Dhuliawala2023}
+S.~Dhuliawala, M.~Komeili, Jing Xu, R.~Raileanu, Xian Li, Asli Celikyilmaz, and
+  Jason Weston.
+\newblock Chain-of-verification reduces hallucination in large language models.
+\newblock In \emph{Annual Meeting of the Association for Computational
+  Linguistics}, pages 3563--3578, 2023.
+\newblock \doi{10.48550/arXiv.2309.11495}.
+
+\bibitem[Taubenfeld et~al.(2025)Taubenfeld, Sheffer, Ofek, Feder, Goldstein,
+  Gekhman, and Yona]{Taubenfeld2025}
+Amir Taubenfeld, Tom Sheffer, E.~Ofek, Amir Feder, Ariel Goldstein, Zorik
+  Gekhman, and G.~Yona.
+\newblock Confidence improves self-consistency in llms.
+\newblock In \emph{Annual Meeting of the Association for Computational
+  Linguistics}, pages 20090--20111, 2025.
+\newblock \doi{10.18653/v1/2025.findings-acl.1030}.
+
+\end{thebibliography}
