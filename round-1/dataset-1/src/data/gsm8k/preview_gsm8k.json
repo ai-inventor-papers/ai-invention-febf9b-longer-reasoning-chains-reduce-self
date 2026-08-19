@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "source": "openai/gsm8k",
+    "description": "GSM8K math word problems with difficulty stratification for self-check divergence experiment",
+    "total_problems": 8792,
+    "tier_distribution": {
+      "easy": 2930,
+      "medium": 2930,
+      "hard": 2932
+    },
+    "difficulty_method": "heuristic scoring (operations, numerics, sentences, tokens, multi-step indicators)",
+    "paper": "Cobbe et al. 2021 - Training Verifiers to Solve Math Word Problems"
+  },
+  "datasets": [
+    {
+      "dataset": "gsm8k",
+      "examples": [
+        {
+          "input": "Jane's goal is to exercise 1 hour a day, 5 days a week.  If she hits her goal weekly for 8 weeks, how many hours has Jane exercised?",
+          "output": "40",
+          "metadata_difficulty_tier": "easy",
+          "metadata_difficulty_score": 0.0923,
+          "metadata_solution_steps": "Her goal is 1 hour a day for 5 days so on a weekly basis, she exercises 1*5 = <<1*5=5>>5 hours\nIf she works 5 hours a week for 8 weeks then she exercises 5*8 = <<5*8=40>>40 hours in 8 weeks\n#### 40",
+          "metadata_operation_count": 4,
+          "metadata_numeric_count": 4,
+          "metadata_sentence_count": 1,
+          "metadata_token_count": 28,
+          "metadata_multi_step_indicators": 2,
+          "metadata_split": "train",
+          "metadata_row_index": 2650
+        },
+        {
+          "input": "In 10 years, Cornelia will be three times as old as Kilee. If Kilee is currently 20 years old, how old is Cornelia now?",
+          "output": "80",
+          "metadata_difficulty_tier": "easy",
+          "metadata_difficulty_score": 0.1128,
+          "metadata_solution_steps": "In 10 years, Kilee will be 20 years + 10 years = 30 years.\nIn ten years, Cornelia will be 3 * 30 years = <<3*30=90>>90 years old.\nCornelia is currently 90 years - 10 years = <<90-10=80>>80 years old\n#...",
+          "metadata_operation_count": 5,
+          "metadata_numeric_count": 6,
+          "metadata_sentence_count": 3,
+          "metadata_token_count": 24,
+          "metadata_multi_step_indicators": 1,
+          "metadata_split": "train",
+          "metadata_row_index": 7004
+        },
+        {
+          "input": "To earn money for her new computer, Tina sells handmade postcards. In a day, she can make 30 such postcards. For each postcard sold, Tina gets $5. How much money did Tina earn if she managed to sell a...",
+          "output": "900",
+          "metadata_difficulty_tier": "medium",
+          "metadata_difficulty_score": 0.1448,
+          "metadata_solution_steps": "Tina made postcards for 6 days, so she has made 6 days * 30 postcards/day = <<6*30=180>>180 postcards.\nFor every postcard, Tina gets $5, so if she sold every card, she got 180 postcards * $5/postcard ...",
+          "metadata_operation_count": 6,
+          "metadata_numeric_count": 5,
+          "metadata_sentence_count": 3,
+          "metadata_token_count": 48,
+          "metadata_multi_step_indicators": 2,
+          "metadata_split": "train",
+          "metadata_row_index": 3855
+        },
+        {
+          "input": "Olga has an aquarium with fish in 5 different colors. There are 12 yellow ones, half as many blue ones, and twice as many green ones as yellow ones. How many fish does Olga have in her aquarium?",
+          "output": "42",
+          "metadata_difficulty_tier": "medium",
+          "metadata_difficulty_score": 0.1763,
+          "metadata_solution_steps": "Olga has half as many blue fish as yellow ones, which means 12 * 0.5 = <<12*0.5=6>>6 blue fish.\nGreen fish are twice as many as yellow ones, so in total there are 12 * 2 = <<12*2=24>>24 green fish.\nSo...",
+          "metadata_operation_count": 8,
+          "metadata_numeric_count": 6,
+          "metadata_sentence_count": 6,
+          "metadata_token_count": 38,
+          "metadata_multi_step_indicators": 2,
+          "metadata_split": "train",
+          "metadata_row_index": 2605
+        },
+        {
+          "input": "Paul's grades last semester were very bad. To encourage him, Paul's dad promised him $5 for every B+ he gets in his next scorecard and twice that amount for every A. If Paul obtains at least two A+ he...",
+          "output": "190",
+          "metadata_difficulty_tier": "hard",
+          "metadata_difficulty_score": 0.4098,
+          "metadata_solution_steps": "We know Paul would get $5 for a B+. However, we know this could be (2x) doubled if he obtains at least two A+. This means 2*$5 = $<<2*5=10>>10 for a B+ if Paul gets at least two A+\nWe know Paul would ...",
+          "metadata_operation_count": 24,
+          "metadata_numeric_count": 9,
+          "metadata_sentence_count": 7,
+          "metadata_token_count": 77,
+          "metadata_multi_step_indicators": 5,
+          "metadata_split": "train",
+          "metadata_row_index": 8033
+        }
+      ]
+    }
+  ]
+}

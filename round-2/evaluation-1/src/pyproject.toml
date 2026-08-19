@@ -1,0 +1,14 @@
+[project]
+name = "self-check-divergence-evaluation"
+version = "0.1.0"
+description = "Statistical analysis of self-check divergence across CoT lengths"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy==2.5.2",
+    "scipy==1.18.0",
+    "pandas==3.0.5",
+    "loguru==0.7.3",
+]
+
+[tool.uv]
+package = false

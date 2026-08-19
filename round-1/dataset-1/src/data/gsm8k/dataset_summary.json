@@ -1,0 +1,22 @@
+{
+  "total_problems": 8792,
+  "tier_distribution": {
+    "easy": 2930,
+    "medium": 2930,
+    "hard": 2932
+  },
+  "difficulty_score_range": {
+    "min": 0.0386,
+    "max": 0.6026,
+    "mean": 0.18599696314831665
+  },
+  "split_distribution": {
+    "train": 7473,
+    "test": 1319
+  },
+  "files": {
+    "full": "/ai-inventor/aii_data/runs/run_DyrN7YJjJoEX/3_invention_loop/iter_1/gen_art/gen_art_dataset_1/data/gsm8k/full_gsm8k.json",
+    "mini": "/ai-inventor/aii_data/runs/run_DyrN7YJjJoEX/3_invention_loop/iter_1/gen_art/gen_art_dataset_1/data/gsm8k/mini_gsm8k.json",
+    "preview": "/ai-inventor/aii_data/runs/run_DyrN7YJjJoEX/3_invention_loop/iter_1/gen_art/gen_art_dataset_1/data/gsm8k/preview_gsm8k.json"
+  }
+}
