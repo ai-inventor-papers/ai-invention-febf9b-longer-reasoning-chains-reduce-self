@@ -62,7 +62,7 @@ paper_text: |+
 
   1. **Self-check divergence metric.** We introduce a novel metric that measures the agreement rate between a model CoT-derived answer and its independent self-check answer as a function of CoT length, capturing a dimension of reasoning reliability that accuracy alone cannot measure.
 
-  2. **Empirical validation.** We report the first experimental measurement of self-check divergence on 1,156 GSM8K problems [2] across three CoT lengths and three difficulty tiers, finding that long CoT traces produce a 20.8 percentage-point drop in agreement rate relative to medium CoT (54.8% vs. 75.6%, Cohen h = 0.27, p < 0.001) \footnote{Code: \url{https://github.com/ai-inventor-outputs/ai-invention-febf9b-longer-reasoning-chains-reduce-self/tree/main/round-2/evaluation-1}}.
+  2. **Empirical validation.** We report the first experimental measurement of self-check divergence on 1,156 GSM8K problems [2] across three CoT lengths and three difficulty tiers, finding that long CoT traces produce a 20.8 percentage-point drop in agreement rate relative to medium CoT (54.8% vs. 75.6%, Cohen h = 0.27, p < 0.001) \footnote{Code: \url{https://github.com/ai-inventor-papers/ai-invention-febf9b-longer-reasoning-chains-reduce-self/tree/main/round-2/evaluation-1}}.
 
   3. **Inverted-U pattern for agreement.** Contrary to our initial hypothesis of monotonic decline, we find that self-check agreement follows an inverted-U pattern mirroring accuracy: medium CoT maximizes both accuracy (82.3%) and agreement (75.6%), while short CoT exhibits a consistency-accuracy gap (83.2% accuracy but only 68.1% agreement), and long CoT collapses on both dimensions (49.9% accuracy, 54.8% agreement) .
 
@@ -126,7 +126,7 @@ paper_text: |+
 
   ### Dataset
 
-  We use the GSM8K benchmark [2], a collection of 8,792 grade-school math word problems \footnote{Code: \url{https://github.com/ai-inventor-outputs/ai-invention-febf9b-longer-reasoning-chains-reduce-self/tree/main/round-1/dataset-1}}. Problems are stratified into three difficulty tiers using quantile-based binning: Easy (2,930), Medium (2,930), Hard (2,932).
+  We use the GSM8K benchmark [2], a collection of 8,792 grade-school math word problems \footnote{Code: \url{https://github.com/ai-inventor-papers/ai-invention-febf9b-longer-reasoning-chains-reduce-self/tree/main/round-1/dataset-1}}. Problems are stratified into three difficulty tiers using quantile-based binning: Easy (2,930), Medium (2,930), Hard (2,932).
 
   ### Model and Inference
 

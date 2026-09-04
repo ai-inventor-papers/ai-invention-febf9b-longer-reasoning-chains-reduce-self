@@ -2,14 +2,14 @@
 
 <div align="center">
 
-<a href="https://cdn.jsdelivr.net/gh/ai-inventor-outputs/ai-invention-febf9b-longer-reasoning-chains-reduce-self@main/workflow.svg">
+<a href="https://cdn.jsdelivr.net/gh/ai-inventor-papers/ai-invention-febf9b-longer-reasoning-chains-reduce-self@main/workflow.svg">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="workflow-dark.svg">
   <img alt="Artifact workflow — how every artifact in this repo was built" src="workflow.svg">
 </picture>
 </a>
 
-<sub>🖱️ <b><a href="https://cdn.jsdelivr.net/gh/ai-inventor-outputs/ai-invention-febf9b-longer-reasoning-chains-reduce-self@main/workflow.svg">Open the interactive diagram</a></b> — every card links to its artifact folder.</sub>
+<sub>🖱️ <b><a href="https://cdn.jsdelivr.net/gh/ai-inventor-papers/ai-invention-febf9b-longer-reasoning-chains-reduce-self@main/workflow.svg">Open the interactive diagram</a></b> — every card links to its artifact folder.</sub>
 
 </div>
 
@@ -22,7 +22,7 @@ Self-check agreement between a model's CoT-derived answer and its independent re
 
 </details>
 
-[![Download PDF](https://img.shields.io/badge/Download-PDF-red)](https://cdn.jsdelivr.net/gh/ai-inventor-outputs/ai-invention-febf9b-longer-reasoning-chains-reduce-self@main/paper.pdf) [![LaTeX Source](https://img.shields.io/badge/LaTeX-Source-orange)](https://github.com/ai-inventor-outputs/ai-invention-febf9b-longer-reasoning-chains-reduce-self/tree/main/paper_latex)
+[![Download PDF](https://img.shields.io/badge/Download-PDF-red)](https://cdn.jsdelivr.net/gh/ai-inventor-papers/ai-invention-febf9b-longer-reasoning-chains-reduce-self@main/paper.pdf) [![LaTeX Source](https://img.shields.io/badge/LaTeX-Source-orange)](https://github.com/ai-inventor-papers/ai-invention-febf9b-longer-reasoning-chains-reduce-self/tree/main/paper_latex)
 
 This repository contains all **4 artifacts** produced across **2 rounds** of an autonomous AI research run — round by round, exactly in the order they were invented.
 
@@ -30,15 +30,15 @@ This repository contains all **4 artifacts** produced across **2 rounds** of an 
 
 | Artifact | Type | Demo | Source | Builds on |
 |----------|------|------|--------|-----------|
-| **[Survey of self-check divergence and CoT length literature](https://github.com/ai-inventor-outputs/ai-invention-febf9b-longer-reasoning-chains-reduce-self/tree/main/round-1/research-1)** | [![research](https://img.shields.io/badge/research-3b82f6)](https://github.com/ai-inventor-outputs/ai-invention-febf9b-longer-reasoning-chains-reduce-self/tree/main/round-1/research-1) | [![View Research](https://img.shields.io/badge/View-Research-green)](https://github.com/ai-inventor-outputs/ai-invention-febf9b-longer-reasoning-chains-reduce-self/blob/main/round-1/research-1/demo/research_demo.md) | [![Source Code](https://img.shields.io/badge/Source_Code-2962FF)](https://github.com/ai-inventor-outputs/ai-invention-febf9b-longer-reasoning-chains-reduce-self/tree/main/round-1/research-1/src) | — |
-| **[GSM8K Math Problems With Difficulty Tiers](https://github.com/ai-inventor-outputs/ai-invention-febf9b-longer-reasoning-chains-reduce-self/tree/main/round-1/dataset-1)** | [![dataset](https://img.shields.io/badge/dataset-f59e0b)](https://github.com/ai-inventor-outputs/ai-invention-febf9b-longer-reasoning-chains-reduce-self/tree/main/round-1/dataset-1) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ai-inventor-outputs/ai-invention-febf9b-longer-reasoning-chains-reduce-self/blob/main/round-1/dataset-1/demo/data_code_demo.ipynb) | [![Source Code](https://img.shields.io/badge/Source_Code-2962FF)](https://github.com/ai-inventor-outputs/ai-invention-febf9b-longer-reasoning-chains-reduce-self/tree/main/round-1/dataset-1/src) | — |
+| **[Survey of self-check divergence and CoT length literature](https://github.com/ai-inventor-papers/ai-invention-febf9b-longer-reasoning-chains-reduce-self/tree/main/round-1/research-1)** | [![research](https://img.shields.io/badge/research-3b82f6)](https://github.com/ai-inventor-papers/ai-invention-febf9b-longer-reasoning-chains-reduce-self/tree/main/round-1/research-1) | [![View Research](https://img.shields.io/badge/View-Research-green)](https://github.com/ai-inventor-papers/ai-invention-febf9b-longer-reasoning-chains-reduce-self/blob/main/round-1/research-1/demo/research_demo.md) | [![Source Code](https://img.shields.io/badge/Source_Code-2962FF)](https://github.com/ai-inventor-papers/ai-invention-febf9b-longer-reasoning-chains-reduce-self/tree/main/round-1/research-1/src) | — |
+| **[GSM8K Math Problems With Difficulty Tiers](https://github.com/ai-inventor-papers/ai-invention-febf9b-longer-reasoning-chains-reduce-self/tree/main/round-1/dataset-1)** | [![dataset](https://img.shields.io/badge/dataset-f59e0b)](https://github.com/ai-inventor-papers/ai-invention-febf9b-longer-reasoning-chains-reduce-self/tree/main/round-1/dataset-1) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ai-inventor-papers/ai-invention-febf9b-longer-reasoning-chains-reduce-self/blob/main/round-1/dataset-1/demo/data_code_demo.ipynb) | [![Source Code](https://img.shields.io/badge/Source_Code-2962FF)](https://github.com/ai-inventor-papers/ai-invention-febf9b-longer-reasoning-chains-reduce-self/tree/main/round-1/dataset-1/src) | — |
 
 ## Round 2
 
 | Artifact | Type | Demo | Source | Builds on |
 |----------|------|------|--------|-----------|
-| **[Research on 6 Prior Papers for Self-Check Divergence Novelty…](https://github.com/ai-inventor-outputs/ai-invention-febf9b-longer-reasoning-chains-reduce-self/tree/main/round-2/research-1)** | [![research](https://img.shields.io/badge/research-3b82f6)](https://github.com/ai-inventor-outputs/ai-invention-febf9b-longer-reasoning-chains-reduce-self/tree/main/round-2/research-1) | [![View Research](https://img.shields.io/badge/View-Research-green)](https://github.com/ai-inventor-outputs/ai-invention-febf9b-longer-reasoning-chains-reduce-self/blob/main/round-2/research-1/demo/research_demo.md) | [![Source Code](https://img.shields.io/badge/Source_Code-2962FF)](https://github.com/ai-inventor-outputs/ai-invention-febf9b-longer-reasoning-chains-reduce-self/tree/main/round-2/research-1/src) | — |
-| **[Statistical Analysis of Self-Check Divergence](https://github.com/ai-inventor-outputs/ai-invention-febf9b-longer-reasoning-chains-reduce-self/tree/main/round-2/evaluation-1)** | [![evaluation](https://img.shields.io/badge/evaluation-10b981)](https://github.com/ai-inventor-outputs/ai-invention-febf9b-longer-reasoning-chains-reduce-self/tree/main/round-2/evaluation-1) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ai-inventor-outputs/ai-invention-febf9b-longer-reasoning-chains-reduce-self/blob/main/round-2/evaluation-1/demo/eval_code_demo.ipynb) | [![Source Code](https://img.shields.io/badge/Source_Code-2962FF)](https://github.com/ai-inventor-outputs/ai-invention-febf9b-longer-reasoning-chains-reduce-self/tree/main/round-2/evaluation-1/src) | <sub><i>uses:</i><br/>[dataset‑1&nbsp;(R1)](https://github.com/ai-inventor-outputs/ai-invention-febf9b-longer-reasoning-chains-reduce-self/tree/main/round-1/dataset-1)</sub> |
+| **[Research on 6 Prior Papers for Self-Check Divergence Novelty…](https://github.com/ai-inventor-papers/ai-invention-febf9b-longer-reasoning-chains-reduce-self/tree/main/round-2/research-1)** | [![research](https://img.shields.io/badge/research-3b82f6)](https://github.com/ai-inventor-papers/ai-invention-febf9b-longer-reasoning-chains-reduce-self/tree/main/round-2/research-1) | [![View Research](https://img.shields.io/badge/View-Research-green)](https://github.com/ai-inventor-papers/ai-invention-febf9b-longer-reasoning-chains-reduce-self/blob/main/round-2/research-1/demo/research_demo.md) | [![Source Code](https://img.shields.io/badge/Source_Code-2962FF)](https://github.com/ai-inventor-papers/ai-invention-febf9b-longer-reasoning-chains-reduce-self/tree/main/round-2/research-1/src) | — |
+| **[Statistical Analysis of Self-Check Divergence](https://github.com/ai-inventor-papers/ai-invention-febf9b-longer-reasoning-chains-reduce-self/tree/main/round-2/evaluation-1)** | [![evaluation](https://img.shields.io/badge/evaluation-10b981)](https://github.com/ai-inventor-papers/ai-invention-febf9b-longer-reasoning-chains-reduce-self/tree/main/round-2/evaluation-1) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ai-inventor-papers/ai-invention-febf9b-longer-reasoning-chains-reduce-self/blob/main/round-2/evaluation-1/demo/eval_code_demo.ipynb) | [![Source Code](https://img.shields.io/badge/Source_Code-2962FF)](https://github.com/ai-inventor-papers/ai-invention-febf9b-longer-reasoning-chains-reduce-self/tree/main/round-2/evaluation-1/src) | <sub><i>uses:</i><br/>[dataset‑1&nbsp;(R1)](https://github.com/ai-inventor-papers/ai-invention-febf9b-longer-reasoning-chains-reduce-self/tree/main/round-1/dataset-1)</sub> |
 
 ## Repository Structure
 
@@ -80,7 +80,7 @@ No installation required!
 
 ```bash
 # Clone the repo
-git clone https://github.com/ai-inventor-outputs/ai-invention-febf9b-longer-reasoning-chains-reduce-self
+git clone https://github.com/ai-inventor-papers/ai-invention-febf9b-longer-reasoning-chains-reduce-self
 cd ai-invention-febf9b-longer-reasoning-chains-reduce-self
 
 # Install dependencies
